@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-screen{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(64, 138, 223);
+}
+
+#score-box{
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  width: 5em;
+  background-color: aliceblue;
+  font-size: 2em;
+  float: right;
+  padding-left: 0.4em;
+  margin-right: 0.8em;
+  margin-top: 2vh;
+}
+
+#box{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  width: 400px;
+  margin: auto;
+  padding: 2em 0;
+}
+
+h3 {
+  padding: 15px 30px;
+  font-weight: 500;
+}
+
+#result{
+  font-size: 2em;
+  text-align: center;
+}
+
+.word div {
+  padding: 1.2em;
+  text-align: center;
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.desc p {
+  margin: 0 30px 10px 30px;
+}
+
+.form {
+  margin: 20px 30px 10px 30px;
+}
+
+.form input {
+  padding: 0.8em;
+  width: 100%;
+  display: none;
+}
+
+.form button {
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 0.3em;
+  background-color: rgb(64, 138, 223);
+}
+
+.form button:hover {
+  background-color: rgb(64, 138, 180);
+}
+
+.form #start {
+  width: 60%;
+  margin: 1em 20% 0;
+  padding: 1em 3em;
+  font-size: 1.2rem;
+}
+
+.form #check {
+  display: none;
+  margin: 20px 10px 0 0;
+  padding: 0.9em 2.1em;
+}
